@@ -1,0 +1,12 @@
+[package]
+name = "ra"
+description = "The kernel library"
+license.workspace = true
+edition.workspace = true
+version.workspace = true
+[dependencies]
+heapless = { workspace = true }
+os-terminal = { workspace = true }
+jinshu = { workspace = true }
+x86_64 = { workspace = true }
+spin = { workspace = true }
